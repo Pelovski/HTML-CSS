@@ -29,7 +29,6 @@ nav{
 main{
     height: 400px;
     text-align: center;
-    margin-top: 80px;
     padding: 80px;
     padding-left: 240px;
     padding-right: 240px;
@@ -68,4 +67,7 @@ footer p{
     color: rgb(198, 198, 198);
     padding-top: 50px;
     font-size: 14px;
+}
+.map{
+    margin-bottom: 100px;
 }
