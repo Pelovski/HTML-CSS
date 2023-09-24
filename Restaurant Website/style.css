@@ -20,8 +20,10 @@ header{
 }
 
 nav{
-    background-color: red;
-    height: 40px;
+    background-color: rgba(0, 0, 0, 0.338);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 main{
@@ -34,7 +36,8 @@ main{
 }
 
 footer{
-    background-color: greenyellow;
+    background-color: rgba(0, 0, 0, 0.438);
+    text-align: center;
     height: 100px;
 }
 
@@ -51,4 +54,18 @@ p{
 
 a{
     color: white;
+}
+
+nav a{
+
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer p{
+    color: rgb(198, 198, 198);
+    padding-top: 50px;
+    font-size: 14px;
 }
