@@ -1,9 +1,15 @@
+html{
+    height: 100%;
+}
+
 body{
-    background-color: #FC5E55;
+    background-image: linear-gradient(#FC5E55, #FA4083);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
-font-size: 36px;
+font-size: 80px;
 margin-bottom: 24px;
 }
 
@@ -12,13 +18,14 @@ margin-bottom: 24px;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
 }
 
 header{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid white;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -78,25 +85,16 @@ main{
     font-size: 14px;
 }
 
-.img-container{
-    flex: 1;
-}
-
-.nav-container{
-    flex: 1;
-    text-align: right;
-}
-
-.nav-container nav ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    padding: 4px;
-}
-
-.nav-container nav ul li {
+ nav ul li {
     display: inline;
     border: 1px solid white;
     margin: 8px;
     padding: 4px 12px;
+} 
+
+  nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 4px;
+    color: white;
 }
