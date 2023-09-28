@@ -5,12 +5,12 @@ html{
 body{
     background-image: linear-gradient(#FC5E55, #FA4083);
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
 }
 
 h1{
-font-size: 80px;
-margin-bottom: 24px;
+font-size: 3.25rem;
 }
 
 .container{
@@ -62,7 +62,7 @@ main{
 
 .herobox1{
     flex: 2;
-    padding-left: 10%;
+    padding-right: 100px;
 }
 
 .herobox2{
@@ -76,13 +76,20 @@ main{
     padding: 3px 10px;
     border: 1px solid white;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .herobox1 p{
    display: inline-block;
     width: 70%;
-    margin-bottom: 10px;
-    font-size: 14px;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+}
+
+.herobox1 h1{
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
 }
 
  nav ul li {
@@ -94,7 +101,7 @@ main{
 
   nav ul li a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     padding: 4px;
     color: white;
 }
