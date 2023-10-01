@@ -79,10 +79,17 @@ main{
     display: block;
     padding: 9px 16px;
     border: 1px solid white;
-    border-radius: 3px;
+    border-radius: 6px;
     cursor: pointer;
     font-size: 1.1rem;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.228);
+}
+
+.btn:hover{
+    background-color: green;
+    transition-duration: 1s;
+    color: white;
+    border: 1px solid green;
 }
 
 .herobox1 p{
@@ -97,11 +104,11 @@ main{
   margin-bottom: 1rem;
 }
 
- nav ul li {
-    display: inline;
+ .navbutton {
     border: 1px solid white;
     margin: 8px;
     padding: 9px 16px;
+    display: inline-block;
 } 
 
   nav ul li a{
@@ -143,3 +150,51 @@ h2{
     margin-top: 50px;
     box-shadow: 20px 20px 6px rgba(0, 0, 0, 0.528);
 }
+
+.dropdown{
+    z-index: 1;
+   display: none;
+    position: absolute;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: -25px;
+}
+
+.navbutton{
+    position: relative;
+}
+
+.navbutton:hover .dropdown{
+ display: block;
+}
+
+.dropdown .navbutton{
+    width: 120px;
+    margin: 0;
+    background-color: white;
+    margin-right: 30px;
+}
+
+.dropdown .navbutton a{
+    color: #FA4083;
+}
+
+.dropdown .navbutton:hover{
+    background-color: green;
+    transition-duration: 1s;
+
+}
+
+.dropdown .navbutton:hover a{
+  color: white;
+}
+
+.navbutton:hover{
+   background-color: green;
+   transition-duration: 2s;
+   }
+   
+
+
+
+
