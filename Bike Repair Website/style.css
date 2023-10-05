@@ -223,7 +223,7 @@ input[type=text], input[type=email], textarea{
     box-sizing: border-box;
 }
 
-label{
+.formLabel{
     display: block;
     margin-bottom: 10px;
 }
