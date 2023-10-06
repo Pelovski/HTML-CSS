@@ -1,0 +1,35 @@
+.container{
+    background-color: green;
+    min-height: 500px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.col{
+   width: 30%;
+   margin: 30px 10px;
+}
+
+.col img{
+    width: 100%;
+}
+
+/* Tablet view */
+
+@media(max-width: 768px){
+    .col{
+        width: 47%;
+    }
+}
+
+/* Mobile view */
+
+
+@media(max-width: 400px){
+    .col{
+        width: 100%;
+    }
+}
