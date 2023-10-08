@@ -1,27 +1,71 @@
+body{
+    color: white;
+    background-image: url(Images/Logo\ Background.png);
+    font-family: 'Asap', sans-serif;
+}
+
+.header-container{
+    width: 100%;
+    background-color: rgb(58, 58, 58);
+    position: fixed;
+}
+
+header{
+    max-width: 1024px;
+    background-color: rgb(58, 58, 58);
+    margin: 0 auto;
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+}
+
 .container{
-    background-color: green;
-    min-height: 500px;
     max-width: 1024px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between
+    justify-content: space-between;
+    padding-top: 100px;
 }
 
 .col{
+   background-color: rgb(43, 226, 147);
    width: 30%;
-   margin: 30px 10px;
+   margin-bottom: 20px;
+   border: 3px solid black;
 }
 
 .col img{
     width: 100%;
+    height: auto;
+}
+
+.col p{
+   text-align: center;
+   line-height: 1.5;
+   font-size: 0.875rem;
+   padding: 20px;
+}
+
+.col p::first-line{
+    font-weight: bold;
+}
+
+span{
+    font-weight: 700;
+}
+
+.nav a{
+    padding: 10px 25px;
+    border: 1px solid;
+    margin-left: 20px;
 }
 
 /* Tablet view */
 
 @media(max-width: 768px){
     .col{
-        width: 47%;
+        width: 43%;
     }
 }
 
@@ -33,3 +77,5 @@
         width: 100%;
     }
 }
+
+
