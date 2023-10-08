@@ -55,6 +55,7 @@ span{
     font-weight: 700;
 }
 
+
 .nav a{
     padding: 10px 25px;
     border: 1px solid;
@@ -64,8 +65,33 @@ span{
 /* Tablet view */
 
 @media(max-width: 768px){
+
+    header{
+        display: block;
+        text-align: center;
+    }
+
     .col{
         width: 43%;
+    }
+    
+    .nav a{
+        display: block;
+        border: none;
+        border-bottom: 1px solid;
+    }
+   
+    .header-container{
+        position: relative;
+    }
+
+    .logo{
+        margin-bottom: 40px;
+    }
+
+    .container{
+        padding: 0;
+        margin-top: 20px;
     }
 }
 
